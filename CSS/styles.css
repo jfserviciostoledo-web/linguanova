@@ -383,4 +383,8 @@ button[type="submit"]:hover {
 
 .values h2 {
     color: #2b6cb0;
+
+}
+.nav a:focus {
+   outline: 2px solid white;
 }
