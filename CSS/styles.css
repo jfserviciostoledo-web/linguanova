@@ -213,9 +213,9 @@ button[type="submit"]:hover {
     background: #2b6cb0;
     color: rgb(200, 241, 249);
     text-align: center;
-    padding: 35px 0;
+    padding: 30px 0;
     font-size: 0.95rem;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 @keyframes fadeInDown {
@@ -417,3 +417,4 @@ button[type="submit"]:hover {
     color: #2b6cb0;
     font-weight: bold;
 }
+
