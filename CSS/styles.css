@@ -388,3 +388,6 @@ button[type="submit"]:hover {
 .nav a:focus {
    outline: 2px solid white;
 }
+.btn:focus {
+    outline: 3px solid white;
+}
