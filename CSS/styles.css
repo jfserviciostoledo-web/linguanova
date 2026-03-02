@@ -446,13 +446,24 @@ button[type="submit"]:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.niveles .card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2b6cb0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-.card:hover {
+.niveles .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.btn {
+/* Botón solo en sección inglés */
+.ingles .btn {
   background: linear-gradient(90deg, #2b6cb0, #2c9c95);
   color: white;
   border: none;
@@ -462,14 +473,8 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-.btn:hover {
+.ingles .btn:hover {
   opacity: 0.9;
 }
-.seccion {
-  padding: 60px 20px;
-  background: #e6f2f3;
-  text-align: center;
-}
-
 
 
