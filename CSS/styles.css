@@ -491,7 +491,6 @@ button[type="submit"]:hover {
 }
 
 .niveles .card {
-  background: #e9e9e9;
   padding: 30px 25px;
   border-radius: 20px;
   font-size: 19px;
@@ -599,13 +598,11 @@ button[type="submit"]:hover {
 .acerca-titulo:hover::after {
   width: 100px;
 }
-/* ===== HACER LOS CUADROS BLANCOS IGUALES A LOS AZULES ===== */
+/* ===== HACER LOS CUADROS DE NIVELES IGUALES A LOS AZULES DE ABAJO ===== */
 .niveles .card {
   background: linear-gradient(135deg, #1e3c72, #4da3ff) !important;
   color: white !important;
 }
-
-
 
 
 
