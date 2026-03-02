@@ -454,19 +454,82 @@ button[type="submit"]:hover {
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-/* Botón exclusivo de la página de inglés */
-.ingles .btn {
-  background: linear-gradient(90deg, #2b6cb0, #2c9c95);
-  color: white;
-  border: none;
-  padding: 15px 35px;
-  border-radius: 30px;
+/* ===== SECCIÓN INGLÉS ESTILO AZUL SUAVE ===== */
+.ingles {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #c7d8dc, #a9cfd4);
+}
+
+/* Título principal */
+.ingles h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2f5f9e;
+  margin-bottom: 25px;
+}
+
+/* Línea decorativa debajo del título */
+.ingles h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #2f5f9e;
+  margin: 15px auto 0;
+  border-radius: 3px;
+}
+
+/* Texto descripción */
+.descripcion {
+  max-width: 750px;
+  margin: 0 auto 50px;
   font-size: 18px;
+  color: #1c2e3a;
+}
+
+/* Grid niveles */
+.niveles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+/* ===== TARJETAS NUEVO ESTILO (como en la imagen) ===== */
+.niveles .card {
+  background: #e9e9e9;
+  padding: 30px 25px;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #2f5f9e;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 
+.niveles .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* ===== BOTÓN NUEVO ESTILO ===== */
+.ingles .btn {
+  background: linear-gradient(90deg, #2f5f9e, #2fa39a);
+  color: white;
+  border: none;
+  padding: 16px 45px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .ingles .btn:hover {
-  opacity: 0.9;
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 
