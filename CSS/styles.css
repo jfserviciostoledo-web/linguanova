@@ -458,7 +458,7 @@ button[type="submit"]:hover {
 .ingles {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(to bottom, #c7d8dc, #a9cfd4);
+   background: rgba(207, 250, 255, 0.886);
 }
 
 /* Título principal */
@@ -531,7 +531,6 @@ button[type="submit"]:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
-/* ===== FORZAR ESTILO AZUL SUAVE EN INGLÉS ===== */
 .ingles {
   background-color: #A8CED1;
   padding: 80px 20px;
@@ -580,6 +579,9 @@ button[type="submit"]:hover {
   background: linear-gradient(90deg, #2f5f9e, #2fa39a) !important;
   color: white !important;
 }
+
+
+
 
 
 
