@@ -437,15 +437,7 @@ button[type="submit"]:hover {
   margin-bottom: 40px;
 }
 
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 15px;
-  font-size: 18px;
-  font-weight: 500;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+/* ===== TARJETAS SOLO PARA LA SECCIÓN DE INGLÉS ===== */
 .niveles .card {
   background: white;
   padding: 25px;
@@ -462,7 +454,7 @@ button[type="submit"]:hover {
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-/* Botón solo en sección inglés */
+/* Botón exclusivo de la página de inglés */
 .ingles .btn {
   background: linear-gradient(90deg, #2b6cb0, #2c9c95);
   color: white;
