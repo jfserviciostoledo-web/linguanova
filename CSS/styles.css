@@ -3,23 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: url("Img.idiomas/fondo.jpg") no-repeat center center/cover;
+    background-color: #A8CED1;
     color: #161b1c;
-    position: relative;
 }
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(207, 250, 255, 0.886);
-    backdrop-filter: blur(6px);
-    z-index: -1;
 }
-
 .container {
     width: 90%;
     max-width: 1100px;
@@ -579,6 +569,7 @@ button[type="submit"]:hover {
   background: linear-gradient(90deg, #2f5f9e, #2fa39a) !important;
   color: white !important;
 }
+
 
 
 
