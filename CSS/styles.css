@@ -586,6 +586,31 @@ button[type="submit"]:hover {
   text-align: center;   
   margin-bottom: 20px;
 }
+/* ===== TÍTULO ACERCA DEL INGLÉS IGUAL QUE NIVELES DISPONIBLES ===== */
+.acerca-titulo {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2f5f9e;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* Línea decorativa debajo */
+.acerca-titulo::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #2f5f9e;
+  margin: 15px auto 0;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+/* Pequeña animación al pasar el mouse */
+.acerca-titulo:hover::after {
+  width: 100px;
+}
 
 
 
