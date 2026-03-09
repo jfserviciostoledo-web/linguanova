@@ -604,10 +604,9 @@ button[type="submit"]:hover {
 }
 .contact-form{
     margin-top:50px;
-   background: linear-gradient(to bottom, #c7d8dc, #a9cfd4);  /* mismo tono del fondo superior */
+   background: rgb(224, 255, 255)  /* mismo tono del fondo superior */
     padding:40px;
     border-radius:15px;
-}
 }
 
 .contact-form h3{
@@ -628,6 +627,7 @@ button[type="submit"]:hover {
 .contact-form button{
     margin-top:10px;
 }
+
 
 
 
